@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -9,7 +9,7 @@
         <th>姓名</th>
     </td>
     <tr th:each="user : ${users}">
-        <th th:text="user.username"></th>
+        <th th:text="${user.username}"></th>
     </tr>
 </body>
 </html>
