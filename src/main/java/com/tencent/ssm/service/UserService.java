@@ -1,6 +1,6 @@
 package com.tencent.ssm.service;
 
-import com.tencent.ssm.mapper.UserMapper;
+import com.tencent.ssm.mappers.UserMapper;
 import com.tencent.ssm.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

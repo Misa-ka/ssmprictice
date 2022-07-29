@@ -1,4 +1,4 @@
-package com.tencent.ssm.mapper;
+package com.tencent.ssm.mappers;
 
 import com.tencent.ssm.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
