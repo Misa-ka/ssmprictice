@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <td>
+        <th>姓名</th>
+    </td>
+    <tr th:each="user : ${users}">
+        <th th:text="user.username"></th>
+    </tr>
+</body>
+</html>
